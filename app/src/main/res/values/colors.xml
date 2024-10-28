@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="green">#4CAF50</color> <!-- Adjust the hex code as per your preference -->
+    <color name="red">#F44336</color>   <!-- Adjust the hex code as per your preference -->
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="holo_green_light">#8BC34A</color> <!-- Light green color -->
+    <color name="holo_blue_light">#03A9F4</color> <!-- Light blue color for background -->
+</resources>

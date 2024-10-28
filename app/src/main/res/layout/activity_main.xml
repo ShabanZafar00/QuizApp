@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/quiz4">
+
+    <!-- Quiz Category Card -->
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+app:cardCornerRadius="8dp"
+app:cardElevation="4dp"
+android:backgroundTint="@color/white">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select Quiz Category"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:gravity="center"
+    android:padding="16dp" />
+</androidx.cardview.widget.CardView>
+
+    <!-- Category Spinner -->
+<Spinner
+android:id="@+id/spinnerCategory"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+android:padding="12dp"
+android:background="@drawable/spinner_background"
+android:spinnerMode="dropdown" />
+
+    <!-- Level Selection Card -->
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+app:cardCornerRadius="8dp"
+app:cardElevation="4dp"
+android:backgroundTint="@color/white"
+android:visibility="gone">
+
+<TextView
+    android:id="@+id/selectLevelText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select Level"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:gravity="center"
+    android:padding="16dp" />
+</androidx.cardview.widget.CardView>
+
+    <!-- Level Spinner -->
+<Spinner
+android:id="@+id/spinnerLevel"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="16dp"
+android:padding="12dp"
+android:background="@drawable/spinner_background"
+android:spinnerMode="dropdown"
+android:visibility="gone" />
+
+    <!-- Start Quiz Button -->
+<Button
+android:id="@+id/startQuizButton"
+android:layout_width="200dp"
+android:layout_height="wrap_content"
+android:text="Start Quiz"
+android:textColor="@android:color/black"
+android:backgroundTint="@color/white"
+android:padding="16dp"
+android:textSize="18sp"
+android:layout_marginTop="16dp"
+android:layout_gravity="center"
+android:visibility="gone" />
+
+    </LinearLayout>

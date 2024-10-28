@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string-array name="quiz_categories">
+        <item>Select Category</item>
+        <item>History</item>
+        <item>Science</item>
+        <item>General Knowledge</item>
+    </string-array>
+    <string-array name="quiz_levels">
+        <item>Select Level</item>
+        <item>Beginner</item>
+        <item>Moderate</item>
+        <item>Expert</item>
+    </string-array>
+</resources>
